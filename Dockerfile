@@ -14,11 +14,6 @@ RUN apt install -y git python3 python3-pip python3-healpy
 RUN apt install -y cmake libcfitsio-dev
 RUN apt install -y libboost1.71-all-dev
 
-# setup virtualenvs
-# RUN mkdir $HOME/.virtualenv
-# RUN echo "export WORKON_HOME=$HOME/.virtualenv" >> $HOME/.bashrc
-# RUN /usr/bin/python3 -m venv $HOME/.virtualenv/lofasm
-
 # create directories
 RUN mkdir $REPOS $HOME/data
 
