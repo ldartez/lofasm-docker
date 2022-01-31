@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:21.04
 LABEL maintainer="louis.dartez@gmail.com"
 
 ARG HOME=/root
